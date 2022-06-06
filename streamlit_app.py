@@ -53,7 +53,4 @@ streamlit.dataframe(my_data_rows)
 
 #Allow the end user to add a fruit to the list
 add_my_fruit = streamlit.text_input('What fruit would you like to add?', )
-
-#Dinamic data entry
-fruit_added = streamlit.text_input('What fruit would you like information about?', 'Jackfruit')
-streamlit.write('The user entered', fruit_added)
+streamlit.write('The user entered', add_my_fruit)
